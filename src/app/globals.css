@@ -14,6 +14,10 @@
   }
 }
 
+[data-theme='dark'] {
+  --color-default: #252b30;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

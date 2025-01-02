@@ -8,11 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: ['"Rubik Vinyl"', 'monospace'], 
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  plugins: [ require('daisyui'),],
+  daisyui: {
+    themes : ["dracula"],
+  }
 } satisfies Config;
