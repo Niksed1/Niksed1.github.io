@@ -8,9 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        mont: ['"Montserrat"', 'monospace'], 
-      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

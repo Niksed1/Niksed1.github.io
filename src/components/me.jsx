@@ -1,14 +1,14 @@
 'use client';
 import { TypeAnimation } from 'react-type-animation';
 import Link from "next/link";
+import Head from 'next/head';
 export default function Me()
 {
 
     return(
         <div className=" pt-10 flex flex-col items-center ">
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
-            <div className="flex flex-col items-center font-mont text-5xl text-neutral-content">
-                <p>Hello world, I'm Alex </p>
+            <div className="flex flex-col items-center text-5xl text-neutral-content">
+                <p>Hello world, I'm <span style={{ color: 'pink' }}>Alex</span> </p>
                 <p>a web developer</p>
             </div>
             <Link href="/#projects">

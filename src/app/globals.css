@@ -16,6 +16,7 @@ html {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --font-mont: 'Montserrat', sans-serif;
   }
 }
 
@@ -26,6 +27,6 @@ html {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-mont);
 }
 
