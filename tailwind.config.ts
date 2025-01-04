@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['"Rubik Vinyl"', 'monospace'], 
+        mont: ['"Montserrat"', 'monospace'], 
       },
       colors: {
         background: "var(--background)",
