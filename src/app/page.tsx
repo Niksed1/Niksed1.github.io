@@ -3,7 +3,6 @@ import Nav from "../components/nav";
 import Me from "../components/me";
 import Projects from "./projects";
 import About from "./about";
-import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Home() {
   return (
