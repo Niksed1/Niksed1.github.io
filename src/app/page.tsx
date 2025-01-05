@@ -6,7 +6,7 @@ import About from "./about";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <div className = "min-h-screen bg-base-100" >
         <Nav />
         <Me />
@@ -17,7 +17,6 @@ export default function Home() {
       <div className = "min-h-screen bg-base-100" >
         <Projects />
       </div>
-
-    </main>
+    </div>
   );
 }

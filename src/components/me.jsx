@@ -6,8 +6,8 @@ export default function Me()
 {
 
     return(
-        <div className=" pt-10 flex flex-col items-center ">
-            <div className="flex flex-col items-center text-5xl text-neutral-content">
+        <div className="pt-40 flex flex-col items-center">
+            <div className="flex flex-col items-center text-6xl text-neutral-content">
                 <p>Hello world, I'm <span style={{ color: 'pink' }}>Alex</span> </p>
                 <p>a web developer</p>
             </div>
