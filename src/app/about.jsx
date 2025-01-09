@@ -12,13 +12,14 @@ export default function About() {
             <div className="w-1/2">
                 <section className="wrapper">
                     <div className="top">About me</div>
-                    <div className="bottom" aria-hidden="true">About me</div>
+                    <div className="bottom" aria-hidden="true">About me</div> 
                 </section>
-                <div className="text-xl">
-                    <p>I hold a Bachelor’s degree in Computer Science from the University of California, Irvine.</p>
+                <hr className="pb-5"/>
+                <div className="text-xl ">
+                    <p>I hold a Bachelor’s degree in <strong>Computer Science</strong> from the University of California, Irvine.</p>
                     <p>Since middle school, I have been passionate about utilizing technology to make a meaningful impact on the world.</p>
-                    <p>This passion led me to join the <span style={{ color: 'pink' }}>Design and Partnership Lab @ UCI</span> as a full-stack student developer</p>
-                    <p>At DAP Lab I've built tools that provide access to valuable resources, mental health support, and counseling services for students and teachers.</p>
+                    <p>This passion led me to join the <span style={{ color: 'pink' }}>Design and Partnership Lab @ UCI</span> as a <strong>full-stack student developer.</strong></p>
+                    <p>At DAP Lab We've built tools that provide access to college resources, mental health support, and counseling services for students and teachers.</p>
                     <p style={{ color: 'pink' }} className="mt-20">Keep scrolling, the best is yet to come...</p>
                 </div>
             </div>
