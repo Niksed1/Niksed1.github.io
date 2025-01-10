@@ -7,25 +7,22 @@ import { SiNextdotjs, SiNodedotjs, SiTailwindcss, SiMysql } from 'react-icons/si
 
 export default function About() {
     return (
-        <div id="about" className="w-full h-screen flex flex-col justify-center items-start pl-5 bg-gray-900">
+        <div id="about" className="w-full min-h-screen flex flex-col justify-center items-center pl-5 border-gray-500 text-neutral-content">
         <div className="w-full flex flex-row justify-between items-start">
-            <div className="w-1/2">
+            <div className="w-1/2 ml-20">
                 <section className="wrapper">
-                    <div className="top">About me</div>
-                    <div className="bottom" aria-hidden="true">About me</div> 
+                <div className="top text-4xl font-bold mb-4"><span style={{color: 'pink'}}>About me</span></div>
                 </section>
-                <hr className="pb-5"/>
-                <div className="text-xl ">
+                <div className="text-xl">
                     <p>I hold a Bachelor’s degree in <strong>Computer Science</strong> from the University of California, Irvine.</p>
                     <p>Since middle school, I have been passionate about utilizing technology to make a meaningful impact on the world.</p>
-                    <p>This passion led me to join the <span style={{ color: 'pink' }}>Design and Partnership Lab @ UCI</span> as a <strong>full-stack student developer.</strong></p>
+                    <p>This passion led me to join the <span style={{ color: 'lightblue' }}>Design and Partnership Lab @ UCI</span> as a <strong>full-stack student developer.</strong></p>
                     <p>At DAP Lab We've built tools that provide access to college resources, mental health support, and counseling services for students and teachers.</p>
-                    <p style={{ color: 'pink' }} className="mt-20">Keep scrolling, the best is yet to come...</p>
                 </div>
             </div>
                 <div className="w-1/2 flex flex-col items-center">
-                    <Image src={myImage} alt="Description of image" width={300} height={300} className="my-5" />
-                    <div className="flex flex-col items-center space-y-4 mt-20">
+                    <Image src={myImage} alt="Description of image" width={200} height={200} className="" />
+                    <div className="flex flex-col items-center space-y-4 ">
                         <div className="flex space-x-4">
                             <SiTailwindcss size={100} color="#38B2AC" />
                             <SiMysql size={100} color="#4479A1" />

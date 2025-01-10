@@ -28,9 +28,9 @@ body {
 }
 
 :root {
-  --text-color: pink;
+  --text-color: lightblue;
 }
-
+/* 
 .wrapper {
   display: flex;
   justify-content: center;
@@ -41,12 +41,12 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--text-color);
-}
+} */
 
-.wrapper > div {
+/* .wrapper > div {
   grid-area: 1/1/-1/-1;
-}
-.top {
+} */
+/* .top {
   clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
 }
 .bottom {
@@ -57,4 +57,4 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-5.65em);
-}
+} */
