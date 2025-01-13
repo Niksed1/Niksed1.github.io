@@ -3,26 +3,29 @@ import Image from 'next/image';
 import myImage from '../lib/Vector-1.avif';
 import { FaReact } from 'react-icons/fa';
 import { SiNextdotjs, SiNodedotjs, SiTailwindcss, SiMysql } from 'react-icons/si';
-
+import Link from "next/link";
 
 export default function About() {
     return (
-        <div id="about" className="w-full min-h-screen flex flex-col justify-center items-center pl-5 border-gray-500 text-neutral-content">
-        <div className="w-full flex flex-row justify-between items-start">
-            <div className="w-1/2 ml-20">
-                <section className="wrapper">
-                <div className="top text-4xl font-bold mb-4"><span style={{color: 'pink'}}>About me</span></div>
-                </section>
-                <div className="text-xl">
-                    <p>I hold a Bachelor’s degree in <strong>Computer Science</strong> from the University of California, Irvine.</p>
-                    <p>Since middle school, I have been passionate about utilizing technology to make a meaningful impact on the world.</p>
-                    <p>This passion led me to join the <span style={{ color: 'lightblue' }}>Design and Partnership Lab @ UCI</span> as a <strong>full-stack student developer.</strong></p>
-                    <p>At DAP Lab We've built tools that provide access to college resources, mental health support, and counseling services for students and teachers.</p>
-                </div>
+        <div id="about" className="min-h-screen flex flex-col justify-start items-center pl-5 border-gray-500 text-neutral-content pt-12">
+            <div className="relative w-full text-center">
+                <h1 className="text-6xl text-neutral-content relative inline-block">
+                <span className="text-pink-200">About</span> Me
+                </h1>
             </div>
-                <div className="w-1/2 flex flex-col items-center">
-                    <Image src={myImage} alt="Description of image" width={200} height={200} className="" />
-                    <div className="flex flex-col items-center space-y-4 ">
+            <div className="w-full flex flex-row mt-24">
+                <div className="w-1/2 ml-24 flex flex-col justify-center">
+                    <div className="text-2xl">
+                        <p>I hold a Bachelor’s degree in <span className="text-pink-200">Computer Science</span> from the University of California, Irvine.</p>
+                        <br/>
+                        <p>Since middle school, I have been passionate to make a meaningful impact on the world through technology.</p>
+                        <p>This passion led me to create websites to assist local dance teams, create AI-augmented chat for mental health support, and join the <span className="text-pink-200">Design and Partnership Lab @ UCI</span> as a full-stack student developer.</p>
+                        <p>At DAP Lab We've built tools that provide access to college resources, mental health support, and counseling services for students and teachers.</p>
+                    </div>
+                </div>
+                <div className="w-1/2 flex flex-col justify-center items-center">
+                    <Image src={myImage} alt="Description of image" width={250} height={200} className="" />
+                    <div className="flex flex-col items-center space-y-2">
                         <div className="flex space-x-4">
                             <SiTailwindcss size={100} color="#38B2AC" />
                             <SiMysql size={100} color="#4479A1" />
@@ -35,18 +38,12 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
-    );
-}
-
-
-function about() {
-    return (
-        <div id="about" className="font-mont text-xl h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
-            <p>Welcome stranger!</p>
-            <p>I hold a Bachelor’s degree in Computer Science from the University of California, Irvine.</p>
-            <p>Since middle school, I have been passionate about leveraging technology to make a meaningful impact on the world.</p>
-            <p>This passion led me to join the Design and Partnership Lab @ UCI as a full-stack student developer, where I contributed to building tools that empower students and educators by providing access to valuable resources, mental health support, and counseling services.</p>
+            <Link href="/#projects">
+                <div 
+                    className="font-mont text-xl text-neutral-content bou px-4 py-2 rounded animate-bounce mt-24">
+                    my work ↓
+                </div>
+            </Link>
         </div>
     );
 }
