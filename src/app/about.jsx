@@ -9,13 +9,13 @@ export default function About() {
     return (
         <div id="about" className="min-h-screen flex flex-col justify-start items-center pl-5 border-gray-500 text-neutral-content pt-12">
             <div className="relative w-full text-center">
-                <h1 className="text-6xl text-neutral-content relative inline-block">
+                <h1 className="text-5xl text-neutral-content relative inline-block">
                 <span className="text-pink-200">About</span> Me
                 </h1>
             </div>
             <div className="w-full flex flex-row mt-24">
                 <div className="w-1/2 ml-24 flex flex-col justify-center">
-                    <div className="text-2xl">
+                    <div className="text-xl">
                         <p>I hold a Bachelor’s degree in <span className="text-pink-200">Computer Science</span> from the University of California, Irvine.</p>
                         <br/>
                         <p>Since middle school, I have been passionate to make a meaningful impact on the world through technology.</p>
@@ -40,7 +40,7 @@ export default function About() {
             </div>
             <Link href="/#projects">
                 <div 
-                    className="font-mont text-xl text-neutral-content bou px-4 py-2 rounded animate-bounce mt-24">
+                    className="font-mont text-xl text-neutral-content rounded animate-bounce mt-10">
                     my work ↓
                 </div>
             </Link>

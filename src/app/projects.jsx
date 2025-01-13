@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 export default function Projects() {
     return(
         <div id="projects" className="text-xl h-screen flex flex-col items-center justify-end ">
-            <fieldset className="flex flex-row border border-gray-500 p-10 rounded-md max-w-8xl relative">
+            <fieldset className="flex flex-row border border-gray-500 p-5 rounded-md max-w-7xl relative">
                 <div className="flex-1 mr-7">
                     <p className="text-6xl mb-5"><span className="text-pink-200">Careergram</span></p>
                     <p className="max-w-lg">
@@ -27,12 +27,12 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="flex items-center bg-gradient-to-r from-purple-100 via-pink-200 to-fuchsia-900 rounded-md">
-                    <Image src={img} width={650} height={300} alt="Careergram" className="mt-16 mb-16 ml-5 mr-5 rounded-lg" />
+                    <Image src={img} width={600} height={300} alt="Careergram" className="mt-12 mb-12 ml-5 mr-5 rounded-lg" />
                 </div>
             </fieldset>
             <Link href="/#top"> 
                 <div 
-                    className="text-xl text-neutral-content bou px-4 py-2 rounded animate-bounce mt-10">
+                    className="text-xl text-neutral-content bou px-4 py-2 rounded animate-bounce mt-5">
                     back ↑
                 </div>
             </Link>
